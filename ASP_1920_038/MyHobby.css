@@ -1,0 +1,81 @@
+header{
+  width: 100%;
+  padding: 20px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* Logo */
+header .logo{
+  position: relative;
+  z-index: 101;
+  max-width: 80px;
+  text-align: center;
+}
+
+header .logo img{
+  width: 100%;
+}
+
+/* Menu Links */
+header .menu{
+  max-width: 300px;
+  position: relative;
+  z-index: 101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .menu li{
+  margin: 0 15px;
+  padding: 10px 20px;
+}
+
+/* Menu Icons */
+header label{
+  position: absolute;
+  z-index: 101;
+  top: 40px;
+  right: 50px;
+  display: none;
+}
+
+header label i{
+  font-size: 1.5rem;
+  color: #000;
+}
+#wand{
+  width:250px;
+  filter: drop-shadow(8px 8px 10px black) ;
+  border-radius:30px;
+  margin-top:10;
+  float:left;
+  margin-left:10px;
+  margin-bottom:18px;
+  margin-right:10px;
+}
+.spells{
+  height:50px;
+  font-size:26px;
+  border-radius:5px;
+margin-right:990px;
+ filter: drop-shadow(15px 12px 15px black) ;
+}
+#lumos{
+  margin-bottom:10px;
+}
+#exp{
+  margin-bottom:10px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: auto;
+  max-height: fit-content;
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(214, 44, 143) 0%, rgb(20, 13, 155) 47%, rgba(47, 161, 214, 0.465) 100%);
+}
+
