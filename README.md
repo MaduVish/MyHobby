@@ -1,2 +1,2 @@
 # MyHobby
-My hobby is reading.
+The theme for my webpage is my hobby is reading.
